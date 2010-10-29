@@ -14,10 +14,7 @@ Freely reusable with no restrictions
 // You need to set these three to the values for your own application
 define('CONSUMER_KEY', '');
 define('CONSUMER_SECRET', '');
-define('REDIRECT_URI', 'https://<Your site here!>/labs/salesforce_restphp_example/index.php');
-
-if (empty(CONSUMER_KEY))
-    die('You need to add your own credentials to index.php before you can run this example');
+define('REDIRECT_URI', 'https://Your site here!/salesforce_restphp_example/index.php');
 
 define('LOGIN_BASE_URL', 'https://login.salesforce.com');
 
