@@ -1,3 +1,6 @@
+Salesforce REST/PHP Example
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Salesforce just released the REST version of their API, and while there's a Java example, 
 there's no sample code for other languages. Since I'll be calling it from PHP, I used their 
 documentation to build my own sample code. The source is available at 
@@ -26,3 +29,5 @@ Now point your web browser at the address you uploaded the sample code to. The f
 through it should redirect you to a login page on the Salesforce site, ask you whether you want 
 to let the application access your data, and then send you back to the sample code location. If 
 all goes well, you should see a list of your sales accounts
+
+Pete Warden <pete@petewarden.com> - http://petewarden.typepad.com
